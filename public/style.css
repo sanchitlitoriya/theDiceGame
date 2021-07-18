@@ -1,0 +1,38 @@
+.body {
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid;
+    height:85%;
+    margin-top:2%;
+    /* box-sizing: border-box; */
+    box-shadow: 0 0 5px 5px rgba(190, 190, 190, 0.61);
+    background-color: grey;
+    font: 1em sans-serif;
+}
+
+.button {
+    background-color: rgba(87, 15, 15, 0.027);
+    color: black;
+    width: 30%;
+    border: 2px solid;
+    border-color: whitesmoke;
+    border-radius: 10%;
+    border-style: groove;
+    text-align: center;
+    cursor: pointer
+}
+
+.input {
+    background-color: rgba(87, 15, 15, 0.027);
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10%;
+    border-style: dashed;
+    text-align: center;
+}
+
+.boldRedFont {
+    font-weight: bolder;
+    color: red
+}

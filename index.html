@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Dice roll</title>
+    <script type="text/javascript" src="public/app.js"></script>
+    <link rel="stylesheet" href="public/style.css" type="text/css"></link>
+</head>
+
+
+<body class="body">
+    <div style="text-align: center">
+        <h1 style="color: whitesmoke;">The Game Of Dice</h1>
+        <label id="maxScore1" for="maxScore" style="color: whitesmoke;font-weight: bold;">Set score limit below</label>
+        <br />
+        <input id="maxScore" value="20" class="input" />
+        <H2 id="dispMaxScore"></H2>
+        <img src="public/dice/Alea_7.png" style="width: 112px;height: 112px;" id="dice">
+        <br /> <br /><br />
+        <button id="roll" onclick="showImage()" class="button">Roll</button>
+        <button id="reset" onclick="resetGame()" class="button">Reset</button>
+        <br /><br />
+        <h2 id="chance">
+            <blink> Player 1 roll dice !</blink>
+        </h2>
+
+        <br /><br />
+        <label for="player1">Score of player1 : </label>
+        <label id="player1" class="boldRedFont">0</label>
+        <!-- <input id="player1" value="0" /> -->
+        <br />
+        <label for="player2">Score of player2 : </label>
+        <label id="player2" class="boldRedFont">0</label>
+        <!-- <input id="player2" value="0" /> -->
+        <br /><br />
+        <label id="report1" class="boldRedFont">Winner of game will be displayed here </label>
+        <label id="report" style="visibility: hidden">0</label>
+    </div>
+
+</body>
+
+</html>
